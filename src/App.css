@@ -7,7 +7,7 @@ nav {
   justify-content: space-around;
   align-items: center;
   min-height: 15vh;
-  background: lightcoral;
+  background:rgb(195, 40, 40);
   list-style: none;
 }
 
@@ -17,6 +17,21 @@ nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
+}
 
+.body-style {
+  /* display: flex; */
+  align-items: center;
+  justify-content: space-around;
+  margin-left: 175px;
+  margin-right: 175px;
+}
+
+.btn-style {
+  margin: 50px;
+  cursor: pointer;
+  background-color: lightblue;
+  border-radius: 3px;
+  
 }
 
