@@ -30,17 +30,27 @@ nav {
 .btn-style {
   margin: 50px;
   cursor: pointer;
-  background-color: lightblue;
+  background-color: red;
   border-radius: 3px;
+  color: yellow;
+  font-size: larger;
 
 }
 
 .link-style{
-  color: white;
+  color: yellow;
   font-size: larger;
 }
 
 .time-machine {
   margin: 10px;
 
+}
+
+h1 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1, h2, h3{
+  font-family: 'Noto Serif', serif;
 }
