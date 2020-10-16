@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react';
 
 import './App.css';
 
@@ -7,12 +7,13 @@ import About from "./components/About";
 import Begin from "./components/Begin";
 import Home from './components/Home';
 
-import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+import {BrowserRouter as Router, Route} from 'react-router-dom';
 
-
-function App() {
-  return (
-    <Router>
+ class App extends Component {
+  render() {
+    return (
+      <div>
+        <Router>
     <div className="App">
       <Nav />
       <Route path="/" exact component={Home} />
@@ -20,7 +21,11 @@ function App() {
       <Route path="/begin" component={Begin} />
     </div>
     </Router>
-  );
+      </div>
+    )
+  }
 }
 
 export default App;
+
+
