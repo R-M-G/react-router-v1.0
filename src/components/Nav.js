@@ -1,5 +1,7 @@
 import React from 'react';
 
+import {Link} from "react-router-dom";
+
 
 
 function Nav() {
@@ -7,8 +9,17 @@ function Nav() {
     <nav>
       <h1>Logo</h1>
       <ul className="nav-links">
-          <li>About</li>
-          <li>Begin</li>
+        <Link to="/">
+            <li>Home</li>
+        </Link>
+
+        <Link to="/about">
+        <li>About</li>
+        </Link>
+
+        <Link to="/begin">
+        <li>Begin</li>
+        </Link>
       </ul>
       </nav>
   );
