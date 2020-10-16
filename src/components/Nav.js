@@ -7,9 +7,7 @@ function Nav() {
     <nav>
       <h1>Logo</h1>
       <ul className="nav-links">
-          <li>
-              About
-          </li>
+          <li>About</li>
           <li>Begin</li>
       </ul>
       </nav>
