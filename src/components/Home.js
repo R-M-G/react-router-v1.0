@@ -14,7 +14,7 @@ export class Home extends Component {
                 <h2>MASTER OF THE PAST</h2>
                 <h3>Created from A Book By Steven Otfinoski</h3>
                 <Link to="/begin">
-                    <button className='btn-style'>Next</button>
+                    <button className='btn-style'>Begin</button>
                     </Link>
             </div>
         )
