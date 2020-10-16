@@ -37,12 +37,10 @@ nav {
 
 .link-style{
   color: white;
+  font-size: larger;
 }
 
-.book-cover{
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  
+.time-machine {
+  margin: 10px;
 
 }

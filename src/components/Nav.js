@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
-
 import {Link} from "react-router-dom";
+
+import timeMachine from './time_machine.png';
 
 
 class Nav extends Component {
@@ -8,7 +9,7 @@ class Nav extends Component {
     render() {
         return (
         <nav>
-        <h1>Logo</h1>
+        <img className='time-machine' src={timeMachine} alt="Logo" />
             <ul className="nav-links">
                 <Link className='link-style' to="/"><li>Home</li></Link>
                 <Link className='link-style' to="/begin"><li>Begin</li></Link>
