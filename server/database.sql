@@ -7,7 +7,7 @@ CREATE TABLE "motp" (
 );
 
 INSERT INTO "motp" ("body", "graphic", "page#", "nextPage#")
-VALUES ('Lucky Kid! How many kids have a famouse scientist for a father?', 'no graphic', 2, 3);
+VALUES ('Lucky Kid! How many kids have a famous scientist for a father?', 'no graphic', 2, 3);
 
 INSERT INTO "motp" ("body", "graphic", "page#", "nextPage#")
 VALUES ('Three men are standing at the door', 'no graphic', 3, 9);
